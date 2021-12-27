@@ -1,0 +1,14 @@
+.input__block {
+  display: block;
+}
+input {
+  box-sizing: border-box;
+  display: block;
+  margin: 12px;
+  width: 10%;
+}
+#answer {
+  width: 7%;
+  position: absolute;
+  left: 25px;
+}
