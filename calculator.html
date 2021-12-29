@@ -9,7 +9,7 @@
     <script src="calculator.js"></script>
   </head>
   <body>
-    <div class="wrap">
+    <form class="wrap">
       <h1>WELCOME TO THE CALCULATOR</h1>
       <h2>Enter Your numbers here</h2>
       <div class="input__block">
@@ -26,8 +26,8 @@
           placeholder="Enter your second number"
         />
         <input type="text" placeholder="your answer" id="answerHTML" />
-        <button onclick="userinput()"> submit</button>
+        <input type="button" value="submit" onclick="myCalc()" />
       </div>
-    </div>
+    </form>
   </body>
 </html>
