@@ -11,3 +11,10 @@ function subtract() {
   let sum = Number(first) - Number(second);
   document.querySelector("#answerHTML").value = sum;
 }
+
+function multiply() {
+    let first = document.querySelector("#first").value;
+    let second = document.querySelector("#second").value;
+    let sum = Number(first) * Number(second);
+    document.querySelector("#answerHTML").value = sum;
+  }
