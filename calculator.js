@@ -31,3 +31,6 @@ function remainder() {
   let sum = Number(first) % Number(second);
   document.querySelector("#answerHTML").value = sum;
 }
+
+
+// Now i want to use constructor and factory functions to implement the same
