@@ -34,4 +34,4 @@ function remainder() {
 
 
 // Now i want to use constructor and factory functions to implement the same
-//continua
+//continual
