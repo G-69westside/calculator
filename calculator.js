@@ -1,4 +1,3 @@
-
 function subtract() {
   let first = document.querySelector("#first").value;
   let second = document.querySelector("#second").value;
